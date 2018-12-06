@@ -1,13 +1,13 @@
-baseURL = ""
+baseURL = "/"
 languageCode = "de"
 title = "Konfidas"
 DefaultContentLanguage = "de"
 [languages]
-  [languages.en]
-    contentDir = "content/en"
-    languageName = "English"
-    # weight = 10
   [languages.de]
     contentDir = "content/de"
     languageName = "Deutsch"
+    # weight = 10
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
     # weight = 20
