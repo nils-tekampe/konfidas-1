@@ -1,0 +1,44 @@
+<script type="text/javascript"> if(navigator.userAgent.match(/(Android|iPod|iPhone|iPad|BlackBerry|IEMobile|Opera Mini)/)) { document.body.className += " using-mobile-browser "; } </script>
+  {{ partial "top.html" . }}
+  <div id="header-space" data-header-mobile-fixed='false'></div> 
+  <div id="header-outer" data-has-menu="true"  data-has-buttons="no" data-using-pr-menu="false" data-mobile-fixed="false" data-ptnm="false" data-lhe="default" data-user-set-bg="#ffffff" data-format="default" data-permanent-transparent="false" data-megamenu-rt="0" data-remove-fixed="0" data-cart="false" data-transparency-option="" data-box-shadow="small" data-shrink-num="6" data-full-width="false" data-condense="false" data-using-secondary="1" data-using-logo="1" data-logo-height="40" data-m-logo-height="24" data-padding="28" data-header-resize="1">
+    <header id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col span_3">
+            <a id="logo" href="/en/" data-supplied-ml="true" >
+              <img class="stnd  dark-version" alt="konfidas.de" src="/images/Logo-konfidas-mobil_40px.png"  />
+              <img class="mobile-only-logo" alt="konfidas.de" src="/images/Logo-konfidas-mobil_40px.png" /> 
+            </a>
+          </div><!--/span_3-->
+          <div class="col span_9 col_last">
+            <div class="slide-out-widget-area-toggle mobile-icon std-menu slide-out-from-right" data-icon-animation="simple-transform">   
+              <div>
+                <a id="toggle-nav" href="#sidewidgetarea" class="closed"> 
+                  <span><i class="lines-button x2"><i class="lines"></i> </i></span>
+                </a>
+              </div> 
+            </div>
+            <nav>
+              <ul class="buttons" data-user-set-ocm="off"></ul>    
+              <ul class="sf-menu">
+                {{ range (where .Site.Data.nav "language" .Lang) }}
+                  <li class = "menu-item {{ if .sublinks }}menu-item-has-children sf-with-ul{{ end }}{{ if hasPrefix $.RelPermalink .url }} current-menu-item{{ end }}">
+                    <a href = "{{ .url }}">{{ .link }}{{ if .sublinks }}<span class="sf-sub-indicator"><i class="icon-angle-down"></i></span>{{ end }}</a>
+                    {{- if .sublinks -}}
+                    <ul class="sub-menu">
+                      {{- range .sublinks -}}
+                       <li><a href = '{{ .url }}'>{{ .link }}</a></li>
+                      {{- end -}}
+                    </ul>
+                    {{- end -}}
+                  </li>
+                {{ end }}
+							</ul>				
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+	{{ partial "mobile.html" . }}

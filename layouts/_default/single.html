@@ -1,0 +1,19 @@
+{{ define "main" }}
+  {{ if .Page.Params.showBanner }}{{ partial "banner.html" . }}{{ end }}
+  {{ if not .Page.Params.showBanner }}<h1 class = 'mt-2'>{{ .Title }}</h1> {{ end }}
+  <div class = 'pb-2 pt-1 post_single {{ with .Page.Params.classId }} {{ . }} {{ end }}'>
+    {{ .Content }}
+  </div>
+  {{ if (eq .Section "blog") }}
+     <!-- about signature -->
+    <section class = 'signature'>
+      <section class = 'signature_inner'>
+        {{- if eq .Lang "en" }}
+          {{ (replace .Site.Data.signature.description.en "\"" "" ) | markdownify }}
+        {{- else }}
+          {{ (replace .Site.Data.signature.description.de "\"" "" ) | markdownify }}
+        {{- end }}
+      </section>
+    </section>
+  {{ end }}
+{{ end }}

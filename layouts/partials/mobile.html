@@ -1,0 +1,24 @@
+<div id="mobile-menu" data-mobile-fixed="false">	
+  <div class="container">
+    <ul>
+    {{- $lang := .Site.Language.Lang -}}
+    {{ range (where .Site.Data.nav "language" $lang) }}
+      <li class = "menu-item {{ if .sublinks }}menu-item-has-children{{ end }}{{ if hasPrefix $.RelPermalink .url }} current-menu-item{{ end }}">
+        <a href = "{{ .url }}">{{ .link }}</a>
+        {{- if .sublinks -}}
+        <ul class="sub-menu">
+          {{- range .sublinks -}}
+            <li><a href = '{{ .url }}'>{{ .link }}</a></li>
+          {{- end -}}
+        </ul>
+        {{- end -}}
+      </li>
+    {{ end }}
+      <li id="mobile-search">  
+        <form action="/en/home" method="GET">
+          <input type="text" name="s" value="" placeholder="Search.." />
+        </form> 
+      </li>		
+    </ul>
+  </div>
+</div>

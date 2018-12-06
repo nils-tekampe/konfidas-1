@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" class="no-js">
+  <head>
+  {{- partial "head.html" . -}}
+  </head>
+  <body data-rsssl=1 class="home page-template-default page page-id-2 ascend wpb-js-composer js-comp-ver-5.5.2 vc_responsive" data-footer-reveal="false" data-header-format="default" data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-footer-reveal-shadow="none" data-dropdown-style="classic" data-cae="easeOutCubic" data-megamenu-width="contained" data-cad="750" data-aie="none" data-ls="fancybox" data-apte="standard" data-hhun="0" data-fancy-form-rcs="default" data-form-style="default" data-form-submit="regular" data-is="minimal" data-button-style="slightly_rounded_shadow" data-header-inherit-rc="false" data-header-search="false" data-animated-anchors="true" data-ajax-transitions="false" data-full-width-header="false" data-slide-out-widget-area="false" data-slide-out-widget-area-style="slide-out-from-right" data-user-set-ocm="off" data-loading-animation="none" data-bg-header="false" data-ext-responsive="true" data-header-resize="1" data-header-color="custom"  data-cart="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false" data-responsive="1" >
+    {{- partial "nav.html" . -}}
+    <main id="ajax-content-wrap">
+      <div class="container-wrap">
+        <div class="container main-content">
+          {{- block "main" . -}}{{- end -}}
+        </div>
+      </div>
+      {{- partial "footer.html" . -}}
+    </main>
+   </body>
+</html>

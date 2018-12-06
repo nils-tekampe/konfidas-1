@@ -1,0 +1,51 @@
+# German Links
+- link: Projektreferenzen
+  language: de
+  url: /referenzen/
+- link: CV
+  language: de
+  url: /cv/
+- link: Publikationen
+  language: de
+  url: /publikationen/
+- link: Downloads
+  language: de
+  url: /downloads/
+- link: News
+  language: de
+  url: /blog/
+- link: Kontakt
+  language: de
+  url: /kontakt/
+  sublinks:
+    - link: Impressum
+      language: de
+      url: /kontakt/impressum/
+    - link: Datenschutzerklärung
+      language: de
+      url: /kontakt/datenschutz/
+
+
+# English Links
+- link: Project References
+  language: en
+  url: /en/project-references/
+- link: CV
+  language: en
+  url: /en/about/
+- link: Publications
+  language: en
+  url: /en/publications/
+- link: Downloads
+  language: en
+  url: /en/downloads/
+- link: Contact
+  language: en
+  url: /en/contact/
+  sublinks:
+    - link: Imprint
+      language: en
+      url: /en/contact/imprint/
+    - link: Privacy Policy
+      language: en
+      url: /en/contact/privacy-policy

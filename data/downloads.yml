@@ -1,0 +1,227 @@
+- group: Allgemeine Geschäftsbedingungen
+  language: de
+  downloads:
+    - item: Unsere AGB
+      description: Niemand kommt um die Verwendung von AGB herum – auch wir leider nicht. Wir haben uns bei der Auswahl der AGB um eine ausgewogene Abwägung unserer Interessen mit den Interessen unserer Kunden bemüht. Nach langer Recherche sind wir auf die AGB des BITKOM aufmerksam geworden, die wir für sehr ausgewogen halten. 
+      details: 
+        - AV_Bitkom.pdf
+        - Adobe Acrobat Dokument [84.2 KB]
+      filename: AV_Bitkom.pdf
+    - item: Ergänzungen der AGB für Dienstleistungen
+      description: Dieses Dokument ergänzt die allgemeinen AGB durch spezifische Aspekte für dir Durchführung von Dienstleistungen.
+      details:
+        - DL_Bitkom.pdf 
+        - Adobe Acrobat Dokument [61.2 KB]
+      filename: DL_Bitkom.pdf
+
+- group: Kryptographische Schlüssel
+  language: de
+  downloads: 
+    - item: PGP key für nt@konfidas.de
+      description: Der primäre PGP-Schlüssel für die email-Adresse nt@konfidas.de
+      details:
+        - nt@konfidas.de.asc 
+        - asc File [3.0 KB]
+      filename: nt@konfidas.de_.asc.zip
+    - item: X.509 Zertifikat (S/MIME) für nt@konfidas.de (aktuell)
+      description: | 
+        X.509 Zertifikat (S/MIME) für nt@konfidas.de
+
+        ```
+        E2:3E:55:17:ED:CE:1F:99:B2:9D:E2:F2:4C:96:01:57:75:5E:D6:0A:CD:D4:6B:DC:04:1E:AC:8F:75:EE:2E:94
+        ```
+      details:
+        - nils.tekampe.2018
+        - Text Dokument [1.8 KB]
+      filename: nils.tekampe.2018.cer
+    - item: X.509 Zertifikat (S/MIME) für nt@konfidas.de bis Oktober 2018 (legacy)
+      description: | 
+        "X.509 Zertifikat (S/MIME) für nt@konfidas.de bis Oktober 2018 Fingerprint:
+
+        ```
+        30:87:CA:FB:4D:C0:B4:95:0C:20:DF:98:01:EC:E4:5B:DD:22:CA:7D:E3:73:1B:36:0A:A0:8E:36:92:C7:AE:66
+        ```"
+      details:
+        - nils.tekampe.cer
+        - Text Dokument [1.8 KB]
+      filename: nils.tekampe.cer
+
+- group: Sonstiges
+  language: de
+  downloads: 
+    - item: Kontaktdaten Nils Tekampe als vcf-Datei
+      description: Die Daten in dieser Datei ersparen das Abtippen der Visitenkarte.
+      details:
+        - nt.vcf
+        - vCard Datei 143.4 KB
+      filename: nt.vcf
+
+- group: X.509 Zertifikate
+  language: de
+  downloads:
+    - item: Root-Zertifikat der CA der konfidas ab Juni 2018
+      description: | 
+        Diese Datei enthält das Root-Zertifkat der CA.
+        Der Fingerabdruck (SHA-256) des Zertifikats lautet
+
+        ```
+        B7 C7 52 4F C8 E2 DB 58 9B 3F DB 86 02 04 B4 92 BD C9 CC 7A 53 32 2D 5A 53 CE 9E 87 B8 93 68 DD
+        ```
+      details:
+        - konfidas-CA-cacert.pem
+        - Text Dokument [2.3 KB]
+      filename: konfidas-CA-cacert.pem
+    - item: Root-Zertifikat der CA der konfidas vor Juni 2018 (legacy)
+      description: |
+        Diese Datei enthält das Root-Zertifkat der CA, die bis Juni 2018 verwendet wurde und dann aus technischen Gründen ersetzt werden musste. Der Fingerabdruck (SHA-256) des Zertifikats lautet
+
+        ```
+        E4 65 70 C5 90 CC 5E 61 31 95 97 49 55 38 A5 13 6E E8 47 E5 AA 87 B3 05 DB 94 2F 83 A3 33 E0 F0
+        ```
+      details:
+        - konfidasCA.cer
+        - exe File [1.4 KB]
+      filename: konfidasCA.cer
+    - item: Root-Zertifikat der Mail SubCA der konfidas ab Juni 2018
+      description: |
+        "Diese Datei enthält das Root-Zertifkat der Mail SubCA. Alle S/MIME-Zertifikate von Mailadressen der konfidas UG nach Juni 2018 sind von diesem Zertifikat signiert. Der Fingerabdruck (SHA-256) des Zertifikats lautet:
+        
+        ```
+        84 43 76 0A 63 6B 1A BC 72 EA 75 FB 3A BF 8E 39 B7 ED CF FB 4B E2 B9 CB A8 43 B2 97 AA 36 33 92
+        ```
+        "
+      details:
+        - konfidas.de-mail-subCA-cacert.pem
+        - Text Dokument [2.3 KB]
+      filename: konfidas.de-mail-subCA-cacert.pem
+    - item: Root-Zertifikat der Mail SubCA der konfidas vor Juni 2018
+      description: |
+        "Diese Datei enthält das Root-Zertifkat der Mail SubCA, das bis Juni 2018 verwendet wurde.
+        Der Fingerabdruck (SHA-256) des Zertifikats lautet:
+      
+        ```
+        A1 C3 A4 9B 9C E8 FC 9D CF 10 8F EB 21 2A 7A 6C 22 89 A2 1B A6 AD 28 BD 3D 7E FE 4E 83 0A CC BF
+        ```
+        "
+      details:
+        - konfidas.de-mail-subCA-cacert.pem
+        - Text Dokument [2.3 KB]
+      filename: konfidasMailSubCA.cer
+      
+# english downloads
+- group: General terms and conditions
+  language: en
+  downloads:
+    - item: Our terms of service
+      description: "" 
+      details: 
+        - AV_Bitkom.pdf
+        - Adobe Acrobat Dokument [84.2 KB]
+      filename: AV_Bitkom.pdf
+    - item: Additions to our terms of service
+      description: ""
+      details:
+        - DL_Bitkom.pdf 
+        - Adobe Acrobat Dokument [61.2 KB]
+      filename: DL_Bitkom.pdf
+
+- group: Cryptographic keys
+  language: en
+  downloads: 
+    - item: PGP key für nt@konfidas.de
+      description: ""
+      details:
+        - nt@konfidas.de.asc 
+        - asc File [3.0 KB]
+      filename: nt@konfidas.de_.asc.zip
+    - item: X.509 Certificate (S/MIME) for nt@konfidas.de
+      description: | 
+        "current X.509 certificate (S/MIME) for nt@konfidas.de.
+          fingerprint:
+
+        ```
+        E2:3E:55:17:ED:CE:1F:99:B2:9D:E2:F2:4C:96:01:57:75:5E:D6:0A:CD:D4:6B:DC:04:1E:AC:8F:75:EE:2E:94
+        ```
+        "
+      details:
+        - nils.tekampe.2018
+        - Text Document [1.8 KB]
+      filename: nils.tekampe.2018.cer
+    - item: X.509 Zertifikat (S/MIME) für nt@konfidas.de bis Oktober 2018 (legacy)
+      description: | 
+        "X.509 Zertifikat (S/MIME) für nt@konfidas.de bis Oktober 2018 Fingerprint:
+
+        ```
+        30:87:CA:FB:4D:C0:B4:95:0C:20:DF:98:01:EC:E4:5B:DD:22:CA:7D:E3:73:1B:36:0A:A0:8E:36:92:C7:AE:66
+        ```"
+      details:
+        - nils.tekampe.cer
+        - Text Dokument [1.8 KB]
+      filename: nils.tekampe.cer
+
+- group: Others
+  language: en
+  downloads: 
+    - item: contact Nils Tekampe as vcf file
+      description: ""
+      details:
+        - nt.vcf
+        - vCard Datei 143.4 KB
+      filename: nt.vcf
+
+- group: X.509 Certificates
+  language: en
+  downloads:
+    - item: Root-certificate of the CA for konfidas from Juni 2018
+      description: | 
+        "This file contains the root certificate of the CA.
+        The fingerprint (SHA-256) of the file is:
+
+        ```
+        B7 C7 52 4F C8 E2 DB 58 9B 3F DB 86 02 04 B4 92 BD C9 CC 7A 53 32 2D 5A 53 CE 9E 87 B8 93 68 DD
+        ```
+        "
+      details:
+        - konfidas-CA-cacert.pem
+        - Text Document [2.3 KB]
+      filename: konfidas-CA-cacert.pem
+    - item: Root-certificate of the CA of konfidas before Juni 2018 (legacy)
+      description: |
+        "This file contains the root certificate of the CA that has been used until June 2018. It has been replace for technical reasons.
+        The fingerprint (SHA-256) of the file is:
+
+        ```
+        E4 65 70 C5 90 CC 5E 61 31 95 97 49 55 38 A5 13 6E E8 47 E5 AA 87 B3 05 DB 94 2F 83 A3 33 E0 F0
+        ```
+        "
+      details:
+        - konfidasCA.cer
+        - exe File [1.4 KB]
+      filename: konfidasCA.cer
+    - item: Root-certificate of the mail SubCA of konfidas from june 2018
+      description: |
+        "This file contains the certificate of the subCA for mail of konfidas. All S/MIME mails from konfidas.de after June 2018 should be signed by a certificate from this subCA.
+        The fingerprint (SHA-256) of the file is:
+        
+        ```
+        84 43 76 0A 63 6B 1A BC 72 EA 75 FB 3A BF 8E 39 B7 ED CF FB 4B E2 B9 CB A8 43 B2 97 AA 36 33 92
+        ```
+        "
+      details:
+        - konfidas.de-mail-subCA-cacert.pem
+        - Text Document [2.3 KB]
+      filename: konfidas.de-mail-subCA-cacert.pem
+    - item: Root-certificate of the mail SubCA of konfidas before June 2018
+      description: |
+        "This file contains the certificate of the subCA for mail of konfidas before June 2018 (legacy).
+        The fingerprint (SHA-256) of the file is:
+      
+        ```
+        A1 C3 A4 9B 9C E8 FC 9D CF 10 8F EB 21 2A 7A 6C 22 89 A2 1B A6 AD 28 BD 3D 7E FE 4E 83 0A CC BF
+        ```
+        "
+      details:
+        - konfidas.de-mail-subCA-cacert.pem
+        - Text Document [2.3 KB]
+      filename: konfidasMailSubCA.cer 
+  

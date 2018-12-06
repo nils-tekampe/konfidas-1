@@ -1,0 +1,6 @@
+{{ define "main" }}
+  {{ partial "banner.html" . }}
+  <div class = 'pt-2 pb-2 {{ with .Page.Params.classId }} {{ . }} {{ end }}'>
+    {{ .Content }}
+  </div>
+{{ end }}

@@ -1,0 +1,104 @@
+<div class="row">
+  <div class="wpb_row vc_row-fluid vc_row top-level full-width-section parallax_section"  style="padding-top: calc(100vw * 0.07); padding-bottom: calc(100vw * 0.07);">
+    <div class="row-bg-wrap">
+      <div class="inner-wrap">
+        <div class="row-bg using-image using-bg-color" style="background-image: url(/images/desk_02.jpg); background-position: left center; background-repeat: no-repeat; background-color: #776f6f;"></div>
+      </div>
+      <div class="row-bg-overlay" ></div>
+    </div>
+    <div class="col span_12 dark left">
+      <div  class="vc_col-sm-6 wpb_column column_container vc_column_container col no-extra-padding">
+        <div class="column-bg-overlay"></div>
+        <div class="vc_column-inner">
+          <div class="wpb_wrapper">
+            <h1 style="text-align: left" class="vc_custom_heading welcome" >{{ .Page.Params.title }}</h1>
+            <div class="wpb_text_column wpb_content_element" >
+              <div class="wpb_wrapper">
+                {{ .Page.Params.description | markdownify }}
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div> 
+      <div  class="vc_col-sm-6 wpb_column column_container vc_column_container col no-extra-padding">
+        <div class="column-bg-overlay"></div>
+        <div class="vc_column-inner">
+          <div class="wpb_wrapper"></div> 
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="wpb_row vc_row-fluid vc_row full-width-section standard_section" style="padding-top: calc(100vw * 0.07); padding-bottom: 0px;">
+    <div class="row-bg-wrap">
+      <div class="inner-wrap">
+        <div class="row-bg  using-bg-color"  style="background-color:#fff;">
+        </div>
+      </div>
+      <div class="row-bg-overlay" >
+        
+      </div>
+    </div>
+    <div class="col span_12 dark left">
+      <div  class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
+        <div class="column-bg-overlay"></div>
+        <div class="vc_column-inner">
+          <div class="wpb_wrapper">
+            <div class="wpb_text_column wpb_content_element  vc_custom_1540731396043" >
+              <div class="wpb_wrapper">
+                <h2>{{ .Page.Params.subtitles.clients }}</h2>
+              </div>
+            </div>
+            <div class="carousel-wrap">
+              <div class="row carousel clients four-cols">
+                {{- range .Site.Data.clients }}
+                <div>
+                  <a href="{{ .link }}" target="_blank">
+                    <img src="/images/{{ .image }}" width="295" height="124" alt="client" />
+                  </a>
+                </div>
+                {{ end }}
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="wpb_row vc_row-fluid vc_row full-width-section standard_section"  style="padding-top: calc(100vw * 0.07); padding-bottom: 0px;">
+    <div class="row-bg-wrap">
+      <div class="inner-wrap">
+        <div class="row-bg  using-bg-color"  style="background-color: #ffffff;"></div>
+      </div>
+      <div class="row-bg-overlay"></div>
+    </div>
+    <div class="col span_12 dark left">
+      <div  class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding">
+        <div class="column-bg-overlay">
+        </div>
+        <div class="vc_column-inner">
+          <div class="wpb_wrapper">
+            <div class="wpb_text_column wpb_content_element  vc_custom_1540653651448" >
+              <div class="wpb_wrapper">
+                <h2>{{ .Page.Params.subtitles.services }}</h2>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div> 
+    </div>
+  </div>
+  <section>
+    <!-- <h2>{{ .Page.Params.subtitles.services }}</h2> -->
+    <section class = 'grid-3 mb-2'>
+      {{- range .Page.Params.services }}
+      <div class = 'post mb-1'>
+        <img src = '/images/{{ .image }}'/>
+        <div class = 'post_inner'>
+          <h3>{{ .title }}</h3>
+          {{ .description | markdownify }}
+        </div>
+      </div>
+      {{- end }}
+    </section>
+  </section>
+</div>

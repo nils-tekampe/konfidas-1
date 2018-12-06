@@ -1,0 +1,18 @@
+<div id="header-secondary-outer" data-lhe="default" data-secondary-text="false" data-full-width="false" data-permanent-transparent="false" >
+  <div class="container">
+    <nav>
+      <div class="nectar-center-text">
+      </div>			
+      <ul class="sf-menu">
+        {{ range $i, $e := .Page.AllTranslations }}
+        <li class="lang-item menu-item">
+          <a href="{{ $e.Permalink }}">
+            {{ if eq $i 1 }}{{ partial "flag.de.html" . }}{{ else }}{{ partial "flag.en.html" . }}{{ end }}
+            <span style="margin-left:0.3em;">{{ $e.Language.LanguageName }}</span>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</div>

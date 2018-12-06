@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ if .Page.Params.showBanner }}{{ partial "banner.html" . }}{{ end }}
+  <section class = 'grid-3 pb-2 pt-2'>
+    {{- range where .Site.RegularPages "Section" .Section }}
+    <div class = "post">
+      {{ $url := .URL }}
+      {{ with .Params.image }}
+      <a href="{{ $url }}" class = "post_featured" style = "background-image: url(/images/{{ . }})"></a>            
+      {{ end }}
+      <div class = "post_inner">
+        <h3><a href = "{{ .URL }}">{{ .Title }}</a></h3>
+        <time class = 'excerpt-date'>{{ dateFormat "02. January 2006" .Date }}</time>
+        <div class = 'pb-1 pt-1'>
+          {{ .Summary | truncate 180 }}
+        </div>
+        <div class = "mt-2">
+          <a class="more-link" href="{{ .URL}}"><span class="continue-reading">{{ if eq .Lang "de" }} Weiterlesen {{ else }} Read More {{ end}}</span></a>  
+        </div>
+      </div>
+    </div>
+    {{- end }}
+  </section>
+{{ end }}

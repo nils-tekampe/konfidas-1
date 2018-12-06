@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ partial "banner.html" . }}
+  <div class = 'pt-2 pb-2 {{ with .Page.Params.classId }} {{ . }} {{ end }}'>
+
+    {{ range (where .Site.Data.downloads "language" .Lang ) }}
+    <section>
+      <h2>{{ .group }}</h2>
+      {{ range $i, $e := .downloads }}
+        <div class = 'grid-3 download_item mt-2 mb-2 {{ if modBool $i 2 }}download_odd{{ end }}'>
+          <div>
+            <h4>{{ $e.item }}</h4>
+          </div>
+          <div>
+            {{ (replace $e.description "\"" "") | markdownify }}
+          </div>
+          <div>
+            <div>
+              <a class="nectar-button small regular accent-color has-icon  regular-button"  href="/downloads/{{ $e.filename }}" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Download</span><i class="fa fa-download"></i></a>
+            </div>
+            <p class = 'muted'>
+            {{ range $e.details }}
+                {{ . }}<br>
+              {{ end }}
+            </p>
+          </div>
+        </div>
+      {{ end }}
+    </section>
+    {{ end }}
+  </div>
+{{ end }}
