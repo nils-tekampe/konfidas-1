@@ -1,6 +1,6 @@
 <footer class = 'footer'>
   <section class = 'footer_inner'>
-    <p>konfidas &#8211; from the esperanto word konfidi &#8211; trust</p>
+    <p>konfidas - {{ if eq .Lang "de"}} {{ .Site.Data.footer.de.text }} {{ else }} {{ .Site.Data.footer.de.text }} {{ end }}</p>
     <p>konfidas UG, Viehofer Str. 31, D-45127 Essen</p>
   </section>
 </footer>
