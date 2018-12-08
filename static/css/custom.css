@@ -4,5 +4,21 @@ img{max-width:100%}main h1:not(.welcome),main h2,main h3{color:#f08921 !importan
   color: #666;
 }
 .footer {
-  padding: 50px 0;
+  padding: 50px 25px;
+}
+pre > code {
+  white-space: pre-wrap;
+}
+pre {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 80vh; 
+}
+.container-wrap {
+  flex: 1;
 }
