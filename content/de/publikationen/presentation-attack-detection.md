@@ -2,7 +2,7 @@
 title: "Presentation Attack Detection: Towards a structured approach for tailored metrics"
 date: 2018-10-27T00:00:00+00:00
 classId: grid-2
-image: tastatur.jpg
+image: tastatur_thumbnail.png
 ---
 
 {{% htmlblock %}}

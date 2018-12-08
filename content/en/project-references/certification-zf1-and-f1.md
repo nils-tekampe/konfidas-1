@@ -3,7 +3,7 @@ title: Certification of the ZF1 and F1 according to Common Criteria
 date: 2018-10-27T00:00:00+00:00
 translationKey: "certification"
 classId: grid-2
-image: fingerprint.jpg
+image: dermalog_thumbnail.jpg
 ---
 
 {{% htmlblock %}}

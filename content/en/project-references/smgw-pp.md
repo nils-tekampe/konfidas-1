@@ -3,7 +3,7 @@ title: "Smgw Pp"
 date: 2018-10-27T00:00:00+00:00
 translationKey: "smgw-pp"
 classId: grid-2
-image: Mockup-smgw-pp.jpg
+image: SMGW-PP_thumbnail.jpg
 ---
 
 {{% htmlblock %}}

@@ -3,7 +3,7 @@ title: B.E.A.T
 date: 2018-10-27T00:00:00+00:00
 translationKey: "beat"
 classId: grid-2
-image: beat.jpg
+image: beat_thumbnail.jpg
 ---
 
 {{% htmlblock %}}

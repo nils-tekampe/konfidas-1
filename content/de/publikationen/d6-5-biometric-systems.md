@@ -2,7 +2,7 @@
 title: "D6.5: Towards the Common Criteria evaluations of biometric systems"
 date: 2018-10-27T00:00:00+00:00
 classId: grid-2
-image: beat.jpg
+image: beat_thumbnail.jpg
 ---
 {{% htmlblock %}}
 

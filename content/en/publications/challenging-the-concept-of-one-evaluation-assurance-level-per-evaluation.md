@@ -2,7 +2,7 @@
 title: "Challenging the Concept of One Evaluation Assurance Level per Evaluation"
 date: 2018-10-27T00:00:00+00:00
 classID: grid-2
-image: common-criteria.png
+image: common-criteria_thumbnail.png
 ---
 
 {{% htmlblock %}}
