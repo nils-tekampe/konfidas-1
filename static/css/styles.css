@@ -48894,3 +48894,52 @@ form label,.woocommerce-checkout-review-order-table .product-info .amount,.wooco
 body #sidebar h4,.widget h4,body #footer-outer .widget h4 {
     font-family: "concourse-c4-bold"
 }
+
+@font - face {
+    font - family: 'concourse-c4-bold';
+    font - style: normal;
+    src: url('/css/fonts/181022012412Concourse-C4-bold.eot');
+    src: local('concourse-c4-bold'), url('/css/fonts/181022012412Concourse-C4-bold.eot') format('embedded-opentype'), url('/css/fonts/181022012412Concourse-C4-bold.woff') format('woff')
+}.concourse - c4 - bold {
+    font - family: 'concourse-c4-bold'!important
+}
+@font - face {
+    font - family: 'concourse-c6';
+    font - style: normal;
+    src: url('/css/fonts/181022012530Concourse-C6.eot');
+    src: local('concourse-c6'), url('/css/fonts/181022012530Concourse-C6.eot') format('embedded-opentype'), url('/css/fonts/181022012530Concourse-C6.woff') format('woff')
+}.concourse - c6 {
+    font - family: 'concourse-c6'!important
+}
+@font - face {
+    font - family: 'equity-tb-regular';
+    font - style: normal;
+    src: url('/css/fonts/181022030406Equity-TB-Regular.eot');
+    src: local('equity-tb-regular'), url('/css/fonts/181022030406Equity-TB-Regular.eot') format('embedded-opentype'), url('/css/fonts/181022030406Equity-TB-Regular.woff') format('woff')
+}.equity - tb - regular {
+    font - family: 'equity-tb-regular'!important
+}
+@font - face {
+    font - family: 'equity-tb-italic';
+    font - style: normal;
+    src: url('/css/fonts/181022030642Equity-TB-Italic.eot');
+    src: local('equity-tb-italic'), url('/css/fonts/181022030642Equity-TB-Italic.eot') format('embedded-opentype'), url('/css/fonts/181022030642Equity-TB-Italic.woff') format('woff')
+}.equity - tb - italic {
+    font - family: 'equity-tb-italic'!important
+}
+@font - face {
+    font - family: 'concouse-t4-reg';
+    font - style: normal;
+    src: url('/css/fonts/181023092756concouse-t4-reg.eot');
+    src: local('concouse-t4-reg'), url('/css/fonts/181023092756concouse-t4-reg.eot') format('embedded-opentype'), url('/css/fonts/181023092756concouse-t4-reg.woff') format('woff')
+}.concouse - t4 - reg {
+    font - family: 'concouse-t4-reg'!important
+}
+@font - face {
+    font - family: 'concourse-c4';
+    font - style: normal;
+    src: url('/css/fonts/181023021034concourse-c4.eot');
+    src: local('concourse-c4'), url('/css/fonts/181023021034concourse-c4.eot') format('embedded-opentype'), url('/css/fonts/181023021034concourse-c4.woff') format('woff')
+}.concourse - c4 {
+    font - family: 'concourse-c4'!important
+}
