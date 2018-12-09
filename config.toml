@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "de"
 title = "Konfidas"
 DefaultContentLanguage = "de"
+enableRobotsTXT = true
 [languages]
   [languages.de]
     contentDir = "content/de"
