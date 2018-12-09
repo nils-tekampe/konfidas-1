@@ -1,20 +1,11 @@
 ---
 title: DERMALOG Fingerprint PAD Kit erfolgreich zertifiziert
-date: 2018-08-22T18:00:48+03:00
-classId: grid-2
+date: 2018-12-08T18:00:48+03:00
+
 image: fingerprint.jpg
 ---
 
-
-{{% htmlblock %}}
-
-![](/images/fingerprint.jpg)
-
-Arne Schönbohm (BSI) und Günter Mull (DERMALOG) nach der Übergabe des 
-
-{{% /htmlblock %}}
-
-{{% htmlblock %}}
+{{< figure src="/images/fingerprint.jpg" title="Arne Schönbohm (BSI) und Günter Mull (DERMALOG) nach der Übergabe des Zertifikats" class="floatleft">}}
 
 In der letzten Woche wurde das Zertifizierungsverfahren der Fingerabdrucksensoren ZF und F1 der [DERMALOG Identification Systems GmbH](http://dermalog.de/) gemäß den [Common Criteria](https://www.konfidas.de/app/sce773bf797cf3147/%20https:/www.commoncriteriaportal.org/) abgeschlossen. Die konfidas UG hat die DERMALOG auf dem Weg durch dieses Verfahren begleitet.
 
@@ -24,5 +15,4 @@ Das Zertifikat wurde am 22.8.2018 durch den Präsidenten des Bundesamtes für Si
 
 Weitere Details über das Verfahren können der [Pressemitteilung](https://www.bsi.bund.de/DE/Presse/Kurzmeldungen/Meldungen/CC-Zertifikat-Dermalog-220818.html) des BSI entnommen werden.
 
-{{% /htmlblock %}}
 

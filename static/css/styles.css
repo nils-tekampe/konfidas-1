@@ -48943,3 +48943,13 @@ body #sidebar h4,.widget h4,body #footer-outer .widget h4 {
 }.concourse - c4 {
     font - family: 'concourse-c4'!important
 }
+
+.floatleft {
+  max-width: 50%;
+  width: auto\9*0.3; /* ie8 */
+  height: auto;
+  float: left;
+  margin: 0px 15px 15px 0px;
+}
+
+

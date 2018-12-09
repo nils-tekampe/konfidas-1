@@ -1,7 +1,7 @@
 ---
 title: "Welcome"
 description: | 
-  "
+  " 
   konfidas UG is supporting their customers in the area of IT-security, IT-assurance and general IT. Following the slogan: konfidas UG – passionate about security!
 
   Our experiences regularly even exceed the need of our customers. For new experiences we stand with all our know-how that you can see in our CV.
